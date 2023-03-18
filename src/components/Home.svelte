@@ -34,10 +34,10 @@
 		@apply w-[100%] h-[225px] rounded-tl-[20px] rounded-tr-[20px] object-cover;
 	}
 	.heading {
-		@apply mt-[42px] mb-[18px] text-[28px] text-[#1f2f56] font-bold;
+		@apply mt-[42px] mb-[18px] text-[28px] text-[#1f2f56] font-extrabold;
 	}
 	.text {
-		@apply text-[#7280a7] text-[16px] pl-[48px] pr-[48px] text-center mb-[24px];
+		@apply text-[#7280a7] text-[16px] pl-[48px] pr-[48px] text-center mb-[24px] font-medium;
 	}
 	.price_box {
 		@apply w-[344px] h-[96px] p-[24px] flex flex-row justify-between items-center bg-[#f5f7ff] rounded-[10px];
@@ -52,7 +52,7 @@
 		@apply text-[18px] text-[#1f2f56] font-bold; 
 	}
 	.price {
-		@apply text-[#7280a7] text-[16px];
+		@apply text-[#7280a7] text-[16px] font-medium;
 	}
 	.change {
 		@apply text-[16px] text-[#3829e0] font-bold cursor-pointer duration-300;
